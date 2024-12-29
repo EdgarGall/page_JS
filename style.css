@@ -1,0 +1,166 @@
+/*
+Para usar Font Awesome 
+
+usar iconos con version 5.5
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  
+  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*Agregar gradiente para el fondo de la imagen*/
+    background-color: #FBAB7E;
+    background-image: linear-gradient(225deg, #fbac7eae 0%, #f7cf68aa 100% ),url('./img/zulia.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.background_conteiner{
+    background-color: #4e4e4eaa;
+    border-radius: 20px;
+    padding: 25px;
+    height: 600px;
+    color: white;
+    max-width: 1000px;  
+}
+.layer{
+  background-color:#eb1616;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    max-width: 45%;
+    padding: 10px 0;
+    border: none ;
+    border-radius: 10%;
+
+  }
+.mi_imagen{
+  max-width: 80px;
+  padding: 2px 0;
+  border: none ;
+  border-radius: 10%;
+  }
+.menu a{
+    font-size: 22px;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-family:"Roboto", sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    
+
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+a:hover{
+    
+    background-color: #161616;
+
+}
+li a.active{
+  background-color: #04AA6D;
+  color: white;
+}
+a{
+    justify-content: space-between;
+}
+input{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    background-color:#4e4e4eaa;
+    color: #4e4e4e49;
+    border: none;
+    
+}
+.mostrar{
+    
+    background-color: #161616;
+    color: white;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.container_info{
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info_lateral{
+  max-width:500px;
+  max-height: 500px;
+  text-align: justify;
+  
+}
+
+#titular{
+  padding: 10px 0px;
+  text-align: left;
+  text-decoration:underline wheat;
+}
+
+.footer{
+  padding: 5px;
+  max-height: 300px;  
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #161616;
+  border: #161616 2px solid;
+  border-radius: 20px;
+}
+
+.container_footer{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+    
+}
+
+.red_social{
+  justify-content: center;
+}
+.red_social a{
+  padding: 4px;
+  font-size: 30px;
+  color: #fff;
+  margin: 0px 10px;
+
+
+}
